@@ -1,0 +1,72 @@
+
+main {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 4em);
+    background: url(../resources/wave.svg) no-repeat 0 50%;
+    background-color: #0F7562;
+    background-size: cover;
+    min-width: 1000px;
+}
+
+main h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.2em;
+    width: 100%;
+    min-width: 500px;
+    color: #FFF;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+
+main article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 1em;
+    width: 65%;
+    min-width: 1000px;
+    max-width: 1440px;
+    height: 100%;
+}
+
+main ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3em;
+}
+
+main li {
+    display: inline-flex;
+    margin-right: .8em;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 4em;
+    border-radius: 2em;
+    box-shadow: 0px 5px 20px rgba(0,0,0,.25);
+    background-color: #0C5A4C;
+}
+
+main a {
+    color: #FFF;
+}
+
+main .decoration {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    width: 76vh;
+    height: 51vh;
+    transform: translate3d(0, -50%, 0);
+    background: url(../resources/saving.png) no-repeat 0 50%;
+    background-size: contain;
+}

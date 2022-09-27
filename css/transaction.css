@@ -1,0 +1,56 @@
+main {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 4em);
+    background: url(../resources/wave.svg) no-repeat 0 50%;
+    background-color: #0F7562;
+    background-size: cover;
+}
+
+main article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    padding: 3em;
+    height: 80%;
+    width: 30%;
+    min-width: 400px;
+    border-radius: 0.5em;
+
+    transform: translate3d(-50%, -50%, 0);
+    background-color: #FFF;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+main p {
+    line-height: 2em;
+}
+
+.decoration-left {
+    position: absolute;
+    top: 34%;
+    left: 16%;
+    width: 28vh;
+    height: 58vh;
+    background: url(../resources/man.png) no-repeat 0 50%;
+    background-size: contain;
+}
+
+.decoration-right {
+    position: absolute;
+    top: 35%;
+    right: 7%;
+    width: 44vh;
+    height: 60vh;
+    background: url(../resources/woman.png) no-repeat 0 50%;
+    background-size: contain;
+}
+
+/* div {
+    display: block;
+} */

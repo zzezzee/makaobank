@@ -48,6 +48,7 @@ button {
     color: #fff;
     background-color: #0F7562;
     border-radius: .2em;
+    border: none;
 }
 
 button:hover {

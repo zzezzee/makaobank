@@ -70,3 +70,11 @@ main .decoration {
     background: url(../resources/saving.png) no-repeat 0 50%;
     background-size: contain;
 }
+
+main li:hover {
+    background-color: #DDDDDD;
+}
+
+main a:active {
+    color: #000;
+}
